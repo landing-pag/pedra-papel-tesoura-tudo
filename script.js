@@ -74,7 +74,7 @@ function jogarRodada(escolhaJogador) {
   const atual = elementos.find(e => e.nome === elementoAtual);
 
   if (!jogador) {
-    alert("Elemento inválido!");
+    alert("Elemento inválido!<br>Corrija a acentuação e sem espaços");
     return;
   }
 
