@@ -1,0 +1,240 @@
+[
+  {
+    "nome": "pedra",
+    "força": ["tesoura","passarinho","peixe", "vidro","rato","eletricidade"],
+    "fraqueza": ["humano","papel", "água","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "papel",
+    "força": ["pedra"],
+    "fraqueza": ["tesoura","humano","fogo", "água","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "tesoura",
+    "força": ["papel", "animais domésticos"],
+    "fraqueza": ["humano","pedra", "eletricidade","fogo", "meteoro","meteoro","planeta","buraco negro"]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "nome": "água",
+    "força": ["fogo", "terra","papel", "rato","gato","passarinho"],
+    "fraqueza": ["humano","eletricidade","ar","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "fogo",
+    "força": [ "tesoura","humano","papel","rato","gato","passarinho","peixe","avião","trem","barco","carro","moto"],
+    "fraqueza": ["água","terra", "pedra","ar","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "terra",
+    "força": ["eletricidade","fogo"],
+    "fraqueza": ["água","fogo","lua","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "ar",
+    "força": ["água", "fogo"],
+    "fraqueza": ["humano","planeta", "meteoro", "buraco negro"]
+  },
+  {
+    "nome": "eletricidade",
+    "força": ["tesoura","água","humano", "veículo", "animais domésticos","avião","trem","barco","carro","moto"],
+    "fraqueza": ["terra", "pedra","meteoro","lua","buraco negro"]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "nome": "humano",
+    "força": ["pedra","água","ar","papel","tesoura","gato","cachorro","rato","passarinho","peixe","terra"],
+    "fraqueza": ["eletricidade","fogo","leão","cobra","tigre","águia","tubarão","avião","trem","barco","carro","moto","lua","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "gato",
+    "força": ["peixe","passarinho","rato","terra"],
+    "fraqueza": ["eletricidade","água","cachorro","humano","fogo","leão","cobra","tigre","águia","tubarão","avião","trem","barco","carro","moto","lua","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "cachorro",
+    "força": ["gato","peixe","passarinho","rato","terra"],
+    "fraqueza": ["humano","eletricidade","fogo","leão","cobra","tigre","águia","tubarão","avião","trem","barco","carro","moto","lua","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "rato",
+    "força": [ "peixe","papel"],
+    "fraqueza": ["passarinho","cachorro","gato","humano","eletricidade","água","ar","fogo","leão","cobra","tigre","águia","tubarão","avião","trem","barco","carro","moto","lua","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "passarinho",
+    "força": ["peixe","rato","papel"],
+    "fraqueza": ["cachorro","gato","humano","eletricidade","água","fogo","leão","cobra","tigre","águia","tubarão","avião","trem","barco","carro","moto","lua","meteoro","planeta","buraco negro"]
+  },
+  {
+    "nome": "peixe",
+    "força": ["papel","água"],
+    "fraqueza": ["rato","cachorro","gato","humano","eletricidade","ar","fogo","leão","cobra","tigre","águia","tubarão","avião","trem","barco","carro","moto","lua","meteoro","planeta","buraco negro"]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "nome": "planeta",
+    "força": ["avião", "trem","barco","carro","moto","tubarão","leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["meteoro","buraco negro"]
+  },
+  {
+    "nome": "lua",
+    "força": ["avião", "trem","barco","carro","moto","tubarão","leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["planeta", "meteoro","buraco negro"]
+  },
+  {
+    "nome": "meteoro",
+    "força": ["avião", "trem","barco","carro","moto","tubarão","leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["buraco negro"]
+  },
+  {
+    "nome": "buraco negro",
+    "força": ["ar","fogo","eletricidade","tesoura","papel","pedra","meteoro","lua","planeta","avião", "trem","barco","carro","moto","tubarão","leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["nada"]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "nome": "leão",
+    "força": ["cobra","humano","águia","cachorro","gato","passarinho","rato","peixe"],
+    "fraqueza": ["lua","tigre","tubarão","planeta","meteoro","buraco negro","carro","barco","trem","moto","avião","fogo","eletricidade"]
+  },
+  {
+    "nome": "tigre",
+    "força": ["cobra","leão","humano","águia","cachorro","gato","passarinho","rato","peixe"],
+    "fraqueza": ["lua","tubarão","planeta","meteoro","buraco negro","carro","barco","trem","moto","avião","fogo","eletricidade"]
+  },
+  {
+    "nome": "águia",
+    "força": ["humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["lua","leão","tigre","tubarão","planeta","meteoro","buraco negro","carro","barco","trem","moto","avião","fogo","eletricidade"]
+  },
+  {
+    "nome": "cobra",
+    "força": ["humano","cachorro","gato","passarinho","rato","peixe"],
+    "fraqueza": ["lua","águia","leão","tigre","tubarão","planeta","meteoro","buraco negro","carro","barco","trem","moto","avião","fogo","eletricidade"]
+  },
+  {
+    "nome": "tubarão",
+    "força": ["leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["lua","planeta","meteoro","buraco negro","carro","barco","trem","moto","avião","fogo","eletricidade"]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "nome": "carro",
+    "força": ["moto","tubarão","leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["planeta","meteoro","buraco negro","lua","trem","barco","avião","fogo","eletricidade","água"]
+  },
+  {
+    "nome": "barco",
+    "força": ["carro","moto","tubarão","leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["moto","tubarão","planeta","meteoro","buraco negro","lua","trem","avião","fogo","eletricidade","água"]
+  },
+  {
+    "nome": "avião",
+    "força": ["trem","barco","carro","moto","tubarão","leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["moto","planeta","meteoro","buraco negro","lua","trem","carro","fogo","eletricidade","água"]
+  },
+  {
+    "nome": "trem",
+    "força": ["barco","carro","moto","tubarão","leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["moto","planeta","meteoro","buraco negro","lua","fogo","eletricidade","água"]
+  },
+  {
+    "nome": "moto",
+    "força": ["leão","cobra","tigre","águia","humano","cachorro","gato","passarinho","cobra","rato","peixe"],
+    "fraqueza": ["moto","barco","tubarão","planeta","meteoro","buraco negro","lua","carro","fogo","eletricidade","água"]
+  }
+]

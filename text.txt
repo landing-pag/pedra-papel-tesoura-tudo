@@ -1,0 +1,19 @@
+// Mostra a tela de game over
+function mostrarGameOver() {
+  const telaGameOver = document.createElement("div");
+  telaGameOver.className = "game-over";
+  telaGameOver.innerHTML = `
+    <div class="text-center">
+      <h2 class="text-danger">Game Over!</h2>
+      <p class="fs-5">Sua pontuação final: ${pontos}</p>
+      <button class="btn btn-primary" id="reiniciar">Recomeçar</button>
+    </div>
+  `;
+  document.body.appendChild(telaGameOver);
+
+  // Adiciona evento para o botão de reiniciar
+  document.getElementById("reiniciar").addEventListener("click", () => {
+    telaGameOver.remove();
+    reiniciarJogo();
+  });
+}
